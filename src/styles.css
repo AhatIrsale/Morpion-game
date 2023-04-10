@@ -1,0 +1,47 @@
+.board {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .my{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    flex: 1;
+    font-size: 48px;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid black;
+    margin: 5px; /* Add margin between squares */
+  }
+  
+  .square:hover {
+    background-color: #ddd;
+  }
+  
+  .X {
+    color: rgb(13, 255, 0);
+  }
+  
+  .O {
+    color: rgb(247, 0, 255);
+  }
+
+  
